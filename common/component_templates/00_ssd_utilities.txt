@@ -1,0 +1,58 @@
+########################
+# Fission Reactors
+########################
+
+utility_component_template = {
+	key = "SHIPYARD_DUMMY_FISSION_REACTOR_SSD"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = 200
+	resources = {
+		category = ship_components
+		cost = {
+			energy = 0
+			alloys = 0
+		}
+		upkeep = {
+			energy = 0
+			alloys = 0
+		}
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { SSD_SHIPYARD_DUMMY_SIZE }
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "SHIPYARD_DUMMY_THRUSTER_SSD"
+	size = small
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+	power = 1
+	resources = {
+		category = ship_components
+		cost = {
+			energy = 0
+			alloys = 0
+		}
+		upkeep = {
+			energy = 0
+			alloys = 0
+		}
+	}
+
+
+	prerequisites = { "tech_thrusters_1" }
+	component_set = "thruster_components"
+	size_restriction = { SSD_SHIPYARD_DUMMY_SIZE }
+
+	ai_weight = {
+		weight = 0
+	}
+}

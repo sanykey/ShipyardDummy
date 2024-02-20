@@ -1,0 +1,28 @@
+# @section_cost = 30
+
+ship_section_template = {
+	key = "SSD_SHIPYARD_DUMMY"
+	ship_size = SSD_SHIPYARD_DUMMY_SIZE
+	fits_on_slot = mid
+	should_draw_components = yes
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	small_utility_slots = 0
+
+	ai_weight = {
+		base = 0
+	}
+
+	resources = {
+		category = ship_sections
+		cost = {
+			energy = 0
+			alloys = 0
+		}
+		upkeep = {
+			energy = 0
+			alloys = 0
+		}
+	}
+}

@@ -1,0 +1,9 @@
+ship_design = {
+	name = "SHIPYARD_DUMMY"
+	ship_size = SSD_SHIPYARD_DUMMY_SIZE
+
+	section = {
+		template = "SSD_SHIPYARD_DUMMY"
+		slot = "mid"
+	}
+}
